@@ -1,0 +1,129 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "API Em Node.Js",
+    "description": "Minha Primeira API, Esta É Em Node.Js. XD"
+  },
+  "host": "localhost:3000",
+  "basePath": "",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "description": "Estes são os dados cadastrados na API",
+        "responses": {
+          "200": {
+            "description": "Ok (◠‿◠)"
+          }
+        }
+      },
+      "post": {
+        "description": "Aqui é possível inserir dados na API.",
+        "parameters": [
+          {
+            "name": "Post",
+            "in": "body",
+            "schema": {
+              "type": "",
+              "properties": {
+                "name": {
+                  "example": "Nome"
+                },
+                "email": {
+                  "example": "email@gmail.com"
+                },
+                "phone": {
+                  "example": "(**) ****-****"
+                },
+                "gender": {
+                  "example": "Masculino ou Feminino"
+                },
+                "age": {
+                  "example": "Idade"
+                },
+                "profession": {
+                  "example": "Profissão"
+                },
+                "city": {
+                  "example": "Cidade"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok (◠‿◠)"
+          }
+        }
+      }
+    },
+    "/{id}": {
+      "put": {
+        "description": "Aqui é possível modificar dados na API através do ID de cada pessoa.",
+        "parameters": [
+          {
+            "name": "ID",
+            "in": "path",
+            "required": true,
+            "type": ""
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "",
+              "properties": {
+                "name": {
+                  "example": "Nome"
+                },
+                "email": {
+                  "example": "email@gmail.com"
+                },
+                "phone": {
+                  "example": "(**) ****-****"
+                },
+                "gender": {
+                  "example": "Masculino ou Feminino"
+                },
+                "age": {
+                  "example": "Idade"
+                },
+                "profession": {
+                  "example": "Profissão"
+                },
+                "city": {
+                  "example": "Cidade"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok (◠‿◠)"
+          }
+        }
+      },
+      "delete": {
+        "description": "Aqui é possível deletar dados na API através do ID de cada pessoa.",
+        "parameters": [
+          {
+            "name": "ID",
+            "in": "path",
+            "required": true,
+            "type": ""
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ok (◠‿◠)  "
+          }
+        }
+      }
+    }
+  }
+}
