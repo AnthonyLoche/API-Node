@@ -39,3 +39,5 @@ No "Post" como o próprio nome sugere te possibilita colocar dados na API.
 No "Put" que seria "Update" te possibilita modificar dados já presentes na API, neste caso é necessário o ID de quem se deseja mudar os dados.
 
 E por fim temos o "Delete", que através do ID de alguém em específico exclui os dados da API, basta selecionar o ID e executar que os dados serão excluidos.
+
+* ![API Funcionando :)](API.png)
