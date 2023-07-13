@@ -40,4 +40,6 @@ No "Put" que seria "Update" te possibilita modificar dados já presentes na API,
 
 E por fim temos o "Delete", que através do ID de alguém em específico exclui os dados da API, basta selecionar o ID e executar que os dados serão excluidos.
 
-* ![API Funcionando :)](API.png)
+
+# <u>API Funcionando (◠‿◠)</u>
+![API Funcionando](API.png)
