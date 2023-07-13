@@ -2,7 +2,7 @@
 
 Esta é minha primeira API, esta em específico é em Node.Js.
 
-Fiz ela com a orientação do Professor Fabio Longo de Moura.
+Fiz ela com a orientação do [Professor Fabio Longo de Moura](https://github.com/ldmfabio).
 
 E também com o auxilio de um video para a API emsi e um site para a documentação.
 * Video: [Operações de CRUD em arquivo JSON usando JavaScript](https://www.youtube.com/watch?v=M7uMuGIlA98).
