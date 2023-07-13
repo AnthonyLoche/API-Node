@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 const swaggerUi = require('swagger-ui-express');
 const swaggerFile = require('./swagger/swagger_output.json');
 
-server.use('', swaggerUi.serve, swaggerUi.setup(swaggerFile));
+server.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerFile));
 server.use(express.json());
 server.use(bodyParser.urlencoded({ extended: false }));
 

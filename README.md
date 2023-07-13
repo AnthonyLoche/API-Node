@@ -27,3 +27,15 @@ E em seguida digitar:
 ```
 >npm run dev
 ```
+
+E em seguida no seu navegador digite na url : "localhost:3000/docs". 
+E pronto, você conseguirá utilizar a API.
+Esta API conta com 4 Metodos, o "Get", "Post", "Put" e "Delete".
+
+No "Get" você consegue conferir quais dados estão registrados na API, e consegue obter todos os campos de cada um, nome, idade, cidade entre outros, e também o mais importante de cada um para a API, o ID de cada um, que é essencial para o "Put" e o "Delete".
+
+No "Post" como o próprio nome sugere te possibilita colocar dados na API.
+
+No "Put" que seria "Update" te possibilita modificar dados já presentes na API, neste caso é necessário o ID de quem se deseja mudar os dados.
+
+E por fim temos o "Delete", que através do ID de alguém em específico exclui os dados da API, basta selecionar o ID e executar que os dados serão excluidos.
